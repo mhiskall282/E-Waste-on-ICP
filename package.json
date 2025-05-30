@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "cd ewaste-frontend && vite",
+    "build": "cd ewaste-frontend && tsc && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "cd ewaste-frontend && vite preview"
   },
   "dependencies": {
     "@dfinity/agent": "^0.20.2",
