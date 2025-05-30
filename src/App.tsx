@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { DeviceProvider } from './context/DeviceContext';
 import { AuthProvider } from './context/AuthContext';
 import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
 import AnalyticsPage from './pages/AnalyticsPage';
 import ReportsPage from './pages/ReportsPage';
 import SettingsPage from './pages/SettingsPage';
@@ -25,6 +26,7 @@ function App() {
             <div className="flex-grow">
               <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/login" element={<LoginPage />} />
                 <Route path="/analytics" element={<AnalyticsPage />} />
                 <Route path="/reports" element={<ReportsPage />} />
                 <Route path="/settings" element={<SettingsPage />} />

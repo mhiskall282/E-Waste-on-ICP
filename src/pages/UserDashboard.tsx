@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useDevices } from '../context/DeviceContext';
-import { UserIcon, DeviceIcon, RecycleIcon, BellIcon } from 'lucide-react';
+import { UserIcon, SliceIcon as DeviceIcon, RecycleIcon, BellIcon } from 'lucide-react';
 import StatsCard from '../components/StatsCard';
 import DeviceTable from '../components/DeviceTable';
 
