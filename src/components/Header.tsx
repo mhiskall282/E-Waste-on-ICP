@@ -74,7 +74,7 @@ const Header: React.FC = () => {
             
             {user ? (
               <div className="flex items-center space-x-4">
-                <Link to="/profile" className="flex items-center space-x-2 hover:bg-white/5 px-3 py-2 rounded-md">
+                <Link to="/profile\" className="flex items-center space-x-2 hover:bg-white/5 px-3 py-2 rounded-md">
                   <img
                     src={user.avatar}
                     alt={user.name}
